@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    background-image: url(..//interrogaçao2.avif);
+}
+
+header {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px rgb(155, 100, 218);
+    text-align: center;
+    width: 30%;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(191, 110, 223);
+}
+
+.botaoSair {
+    border-radius: 20px;
+    margin-right: 50px;
+    background-color: rgb(135, 93, 224);
+    box-shadow: 5px 5px 10px black;
+    height: 30px;
+    width: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.button {
+    border-radius: 20px;
+    width: 550px;
+    height: 100px;
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color: rgb(135, 93, 224);
+    box-shadow: 5px 5px 10px black;
+    color: white;
+    font-size: 35px;
+}
+
+#resultado{
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.button:hover {
+    background-color: rgb(110, 37, 198);
+    transition: 500ms;
+}
+
+.botoes1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imgPergunta {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+.img1{
+    text-align: center;
+}
+
+#perguntaResultado {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 15px
+}

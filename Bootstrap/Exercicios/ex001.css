@@ -1,0 +1,39 @@
+@media (min-width : 768px) 
+{
+    .img
+    {
+        background-image: url(../img/celular.jpeg);
+        background-repeat: no-repeat;
+    }
+    
+}
+
+@media (min-width : 992px) 
+{
+    .img
+    {
+        background-image: url(../img/tablet.webp);
+        background-repeat: no-repeat;
+    }
+    
+}
+
+@media (min-width : 1200px) 
+{
+    .img
+    {
+        background-image: url(../img/desktop.jpg);
+        background-repeat: no-repeat;
+    }
+    
+}
+
+@media (min-width : 1400px) 
+{
+    .img
+    {
+        background-image: url(../img/tv.jpg);
+        background-repeat: no-repeat;
+    }
+    
+}

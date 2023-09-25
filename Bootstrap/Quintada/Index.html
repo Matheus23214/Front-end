@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quintada</title>
+    <!--icones do bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar bg-primary navbar-dark navbar-expand-sm sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                Quintada Oline
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse " id="menuNavBar">
+                <div class="navbar-nav w-100 d-flex justify-content-between">
+                    <div class="d-flex">
+                        <a href="Index.html" class="nav-link">Principal</a>
+                        <a href="Contato.html" class="nav-link">Contato</a>
+                    </div>
+
+                    <div class="d-flex">
+                        <a href="Cadastro.html" class="nav-link">Quero Me Cadastrar</a>
+
+                        <a href="Acessar.html" class="nav-link">Entrar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- sessão do carrosel -->
+        <section id="meuCarrossel" class="carousel carousel-dark slide" data-bs-ride="carousel ">
+            <!-- indicadores do banner -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2"></button>
+            </div>
+            <!-- lista de imagens - banners -->
+            <div class="carousel-inner">
+                <!-- imagem -->
+                <div class="carousel-item active " data-bs-interval="1000">
+                    <img src="Imagens Quitanda/img/slides/slide01.jpg" class=" w-100 d-block ">
+                </div>
+                <div class="carousel-caption">
+                    <button class="btn btn-primary rounded-4 ">Saiba Mais</button>
+                </div>
+                <!-- imagem -2 -->
+                <div class="carousel-item">
+                    <img src="Imagens Quitanda/img/slides/slide01.jpg" class="w-100 d-block">
+                </div>
+                <!-- imagem -3 -->
+                <div class="carousel-item">
+                    <img src="Imagens Quitanda/img/slides/slide01.jpg" class="w-100 d-block">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon "></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </section>
+    </main>
+
+    <main>
+        <div class="d-flex justify-content-between ">
+
+            <div>
+                <input type="text" placeholder="Digite aqui o que procura">
+
+                <button class="btn btn-primary ">Buscar</button>
+            </div>
+
+
+            <ul class="pagination justify-content-center ">
+                <li class="page-item">
+                    <a href="#" class="page-link">1</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">2</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">3</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">4</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">5</a>
+                </li>
+            </ul>
+
+            <select>
+                <Option>Produtos</Option>
+                <Option>Legumes</Option>
+                <Option>Verduras</Option>
+                <Option>Frutas</Option>
+            </select>
+        </div>
+
+        <main class="container col-cm-6">
+            <section class="row gap-0">
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3"> <img src="Imagens Quitanda/img/produtos/000001.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Banana</h5>
+                        <p class="card-text"> Banana boa de qualidade.</p>
+                        <div class="d-flex gap-3 ">
+                            <h3>R$:4,50</h3>
+                            <button class="btn btn-primary">Comprar</button>
+                             <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                            <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!--2 Card-->
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3"> <img src="Imagens Quitanda/img/produtos/000002.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Abacaxi</h5>
+                        <p class="card-text">Abacaxi docinho recem colhido</p>
+                        <div class="d-flex gap-3 ">
+                            <h3>R$:15,00</h3>
+                            <button class="btn btn-primary ">Comprar</button>
+                             <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3"> <img src="Imagens Quitanda/img/produtos/000003.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Mamão</h5>
+                        <p class="card-text">Mamão doce de qualidade</p>
+                        <div class="d-flex gap-3 ">
+                            <h3>R$:5,50</h3>
+                            <button class="btn btn-primary ">Comprar</button>
+                             <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!--2 Card-->
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3"> <img src="Imagens Quitanda/img/produtos/000004.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Maçã</h5>
+                        <p class="card-text">Maçã docinha recem colhida</p>
+                        <div class="d-flex gap-3 ">
+                            <h3>R$:4,00</h3>
+                            <button class="btn btn-primary ">Comprar</button>
+                             <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="row gap-0 mt-5">
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3"> <img src="Imagens Quitanda/img/produtos/000005.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Goiaba</h5>
+                        <p class="card-text">Goiaba fresquinha</p>
+                        <div class="d-flex gap-3 ">
+                            <h3>R$:3,00</h3>
+                            <button class="btn btn-primary ">Comprar</button>
+                             <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!--2 Card-->
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3"> <img src="Imagens Quitanda/img/produtos/000006.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Laranja</h5>
+                        <p class="card-text">Laranja docinha suculenta</p>
+                        <div class="d-flex gap-3 ">
+                            <h3>R$3,40</h3>
+                            <button class="btn btn-primary ">Comprar</button>
+                             <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3"> <img src="Imagens Quitanda/img/produtos/000007.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Abacate</h5>
+                        <p class="card-text">Abacate fresco e suculento</p>
+                        <div class="d-flex gap-3 ">
+                            <h3>R$:3,50</h3>
+                            <button class="btn btn-primary ">Comprar</button>
+                             <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!--2 Card-->
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3"> <img src="Imagens Quitanda/img/produtos/000008.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Abacate fresco</h5>
+                        <p class="card-text">Abacate fresquinho</p>
+                        <div class="d-flex gap-3 ">
+                            <h3>R$:5,00</h3>
+                            <button class="btn btn-primary ">Comprar</button>
+                             <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="row gap-0 mt-5">
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3"> <img src="Imagens Quitanda/img/produtos/000009.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Abóbora</h5>
+                        <p class="card-text">Abóbora suculenta e fresca</p>
+                        <div class="d-flex gap-3 ">
+                            <h3>R$:4,50</h3>
+                            <button class="btn btn-primary ">Comprar</button>
+                             <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!--2 Card-->
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3"> <img src="Imagens Quitanda/img/produtos/000010.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Abóbrinha</h5>
+                        <p class="card-text">Abóbrinha recem colhida</p>
+                        <div class="d-flex gap-3 ">
+                            <h3>R$2,00</h3>
+                            <button class="btn btn-primary ">Comprar</button>
+                             <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3"> <img src="Imagens Quitanda/img/produtos/000011.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Repolho</h5>
+                        <p class="card-text">Repolho fresco recem colhido</p>
+                        <div class="d-flex gap-3 ">
+                            <h3>R$:3,00</h3>
+                            <button class="btn btn-primary ">Comprar</button>
+                             <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <!--2 Card-->
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3"> <img src="Imagens Quitanda/img/produtos/000012.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Alho</h5>
+                        <p class="card-text">Cabeça de alho vermelho</p>
+                        <div class="d-flex gap-3 ">
+                            <h3>R$:2,50</h3>
+                            <button class="btn btn-primary ">Comprar</button>
+                             <a href="Produto.html" class="btn btn-primary ">Ver mais detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </main>
+    </main>
+
+    <footer class="bg-primary">
+
+        <ul>
+            <li> <a href="#" class=" btn  btn-dark "> <i class="bi bi-facebook"></i> Conheça nosso Facebook</a></li>
+            <li> <a href="#" class=" btn  btn-dark "> <i class="bi bi-instagram"></i> Conheça nosso Instagram</a></li>
+        </ul>
+
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <main class="container d-flex justify-content-center align-items-center col-cm-6"
+        style="min-height: calc(100% - 145px);">
+        <form action="" class="w-50">
+            <h2>Informe seus dados</h2>
+            <hr>
+            <div class="row mb-3">
+                <div class="mb-2">
+                    <div class="form-floating">
+                        <input type="text" class="form-control Nome" id="inp0" placeholder=".">
+                        <label for="inp0">Nome completo</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="form-floating mb-2 ">
+                        <input type="text" class="form-control Idade" id="inp1" placeholder=".">
+                        <label for="inp1">Idade</label>
+                    </div>
+                    <div class="form-floating mb-2 "> <input type="text" class="form-control Cidade" id="inp1"
+                            placeholder=".">
+
+                        <label for="inp2">Cidade</label>
+                    </div>
+
+                    <div class="p-0">
+                        <button type="button" class="btn btn-primary m-3 " onclick="Enviar()">Enviar mensagem</button>
+                    </div>
+                </div>
+
+                <div id="mostrar"></div>
+
+        </form>
+
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>

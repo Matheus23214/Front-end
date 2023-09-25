@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro-perguntas.css">
+    <script defer src="js/cadastro-perguntas.js"></script>
+    <title>Cadastrar perguntas</title>
+</head>
+
+<body>
+
+    <h1>Quiz JVM</h1>
+
+
+    <main>
+
+        <h2>Monte seu Quiz</h2>
+
+        <div class="inputs">
+            <input type="text" id="pergunta" placeholder="Digite a Pergunta">
+            <input type="text" id="r1" placeholder="Digite a 1º erro">
+            <input type="text" id="r2" placeholder="Digite o 2º erro">
+            <input type="text" id="r3" placeholder="Digite o 3º erro">
+            <input type="text" id="r4" placeholder="Digite a resposta certa">
+            <input type="text" placeholder="Coloque o link da imagem" id="imgPergunta"> 
+        </div>
+
+        <div class="botoes">
+            <a href="index.html" class="button">Voltar</a>
+            <a class="button" onclick="botaoCadastrar ()">Cadastrar</a>
+        </div>
+
+    </main>
+
+    <main>
+
+    <h2>perguntas:</h2>
+
+    <div id="resultado"></div>
+
+</main>
+
+</body>
+
+</html>

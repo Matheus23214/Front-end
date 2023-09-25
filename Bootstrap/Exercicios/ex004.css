@@ -1,0 +1,16 @@
+body
+{
+    background-color: black;
+}
+
+h1
+{
+    color: white;
+}
+
+.o
+{
+    background-color: aqua;
+    max-width: 300px;
+    min-height: 150px;
+}

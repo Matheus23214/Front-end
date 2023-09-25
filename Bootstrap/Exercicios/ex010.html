@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar bg-primary navbar-dark navbar-expand-sm sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <i class="bi bi-bootstrap-fill fs-2 me-2"></i>
+                bootstrap
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-flex justify-content-end " id="menuNavBar">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-link">Inicio</a>
+                    <div class="dropdown">
+                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Teoria</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="/Bootstrap/01_botoes.html" class="dropdown-item"><i class="bi bi-archive"></i> Teoria 1</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/02_SiteResponsivo.html" class="dropdown-item"><i class="bi bi-archive"></i> Teoria 2</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/03_icones.html" class="dropdown-item"><i class="bi bi-archive"></i> Teoria 3</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/04_Forms.html" class="dropdown-item"><i class="bi bi-archive"></i> Teoria 4</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/05_Tabelas.html" class="dropdown-item"><i class="bi bi-archive"></i> Teoria 5</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/06_SistemaGrind.html" class="dropdown-item"><i class="bi bi-archive"></i> Teoria 6</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/07_dflex.html" class="dropdown-item"><i class="bi bi-archive"></i> Teoria 7</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/08_Paginacao.html" class="dropdown-item"><i class="bi bi-archive"></i> Teoria 8</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/09_Navbar.html" class="dropdown-item"><i class="bi bi-archive"></i> Teoria 9</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/10_Carousel.html" class="dropdown-item"><i class="bi bi-archive"></i> Teoria 10</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Exercicios</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="ex001.html" class="dropdown-item"><i class="bi bi-info-circle-fill"></i> Exercicio 001</a>
+                            </li>
+                            <li>
+                                <a href="ex002.html" class="dropdown-item"> <i class="bi bi-info-circle-fill"></i> Exercicio 002</a>
+                            </li>
+                            <li>
+                                <a href="ex003.html" class="dropdown-item"> <i class="bi bi-info-circle-fill"></i> Exercicio 003</a>
+                            </li>
+                            <li>
+                                <a href="ex004.html" class="dropdown-item"> <i class="bi bi-info-circle-fill"></i> Exercicio 004</a>
+                            </li>
+                            <li>
+                                <a href="ex005.html" class="dropdown-item"> <i class="bi bi-info-circle-fill"></i> Exercicio 005</a>
+                            </li>
+                            <li>
+                                <a href="ex006.html" class="dropdown-item"> <i class="bi bi-info-circle-fill"></i> Exercicio 006</a>
+                            </li>
+                            <li>
+                                <a href="ex007.html" class="dropdown-item"> <i class="bi bi-info-circle-fill"></i> Exercicio 007</a>
+                            </li>
+                            <li>
+                                <a href="ex008.html" class="dropdown-item"> <i class="bi bi-info-circle-fill"></i> Exercicio 008</a>
+                            </li>
+                            <li>
+                                <a href="ex009.html" class="dropdown-item"> <i class="bi bi-info-circle-fill"></i> Exercicio 009</a>
+                            </li>
+                            <li>
+                                <a href="ex0010.html" class="dropdown-item"> <i class="bi bi-info-circle-fill"></i> Exercicio 010</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- sessão do carrosel -->
+        <section id="meuCarrossel" class="carousel carousel-dark slide" data-bs-ride="carousel ">
+            <!-- indicadores do banner -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="3"></button>
+            </div>
+            <!-- lista de imagens - banners -->
+            <div class="carousel-inner">
+                <!-- imagem -->
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://picsum.photos/1280/420?random=1" class="w-100 d-block ">
+                </div>
+                <div class="carousel-caption">
+                    <h4 class="text-light">Primeiro</h4>
+                    <p class="text-light ">Algum texto</p>
+                    <button class="btn btn-primary rounded-4 ">Saiba Mais</button>
+                </div>
+                <!-- imagem -2 -->
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1280/420?random=2" class="w-100 d-block">
+                </div>
+                <!-- imagem -3 -->
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1280/420?random=3" class="w-100 d-block">
+                </div>
+                 <!-- imagem -4 -->
+             <div class="carousel-item">
+                <img src="https://picsum.photos/1280/420?random=4" class="w-100 d-block">
+            </div>    
+            </div>
+           
+            <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon "></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </section>
+    </main>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</html>

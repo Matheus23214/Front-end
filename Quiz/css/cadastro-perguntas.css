@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    background-image: url(..//interrogaçao2.avif);
+}
+
+.button {
+    font-size: 18px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow, transform;
+    background: radial-gradient(100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100%);
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 15px;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    width: 120px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.button:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+}
+
+.button:active {
+    box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+    transform: translateY(0em);
+}
+
+main {
+    border-radius: 8px;
+    padding: 20px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.496);
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 120px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    margin-bottom: 50px;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.618);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    border: transparent;
+    box-shadow: 0px 0px 15px black;
+    border: 2px solid black;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 0px 0px 10px white;
+}
+
+.botoes {
+    text-align: center;
+
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px rgb(155, 100, 218);
+    color: rgb(0, 0, 0);
+    margin-top: 70px;
+    margin-bottom: 70px;
+}

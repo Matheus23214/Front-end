@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz JMV Jogar</title>
+    <link rel="stylesheet" href="css/quiz.css">
+    <script defer src="js/quiz.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Quiz JVM</h1>
+        <button class="botaoSair"><a href="index.html"><b>Sair</b></a></button>
+    </header>
+
+    <main>
+
+
+        <div class="perguntas1">
+            <b id="resultado"></b>
+            <h2>Pergunta:</h2>
+            <p id="perguntaResultado"></p>
+        </div>
+
+        <div class="img1">
+            <img class="imgPergunta" id="imgP">
+        </div>
+
+        <div class="botoes">
+            <div class="botoes1">
+                <button class="button">
+                    <p id="respostas1"  onclick="validarResposta(this)"></p>
+                </button>
+                <button class="button">
+                    <p id="respostas2"  onclick="validarResposta(this)"></p>
+                </button>
+            </div>
+            <div class="botoes2">
+                <button class="button">
+                    <p id="respostas3"  onclick="validarResposta(this)"></p>
+                </button>
+                <button class="button">
+                    <p id="respostas4" onclick="validarResposta(this)"></p>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
